@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spell Checker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+    }
+    .misspelled {
+      color: red;
+      font-weight: bold;
+    }
+    #result {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Spell Checker</h1>
+  <textarea id="textInput" placeholder="Type or paste text here..."></textarea>
+  <button id="checkButton">Check Spelling</button>
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
